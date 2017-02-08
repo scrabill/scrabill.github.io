@@ -1,21 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
-<!-- link to futura font sub -->
-
-
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-<title>shannon crabill | home</title>
-
+<title>shannon crabill | contact</title>
 <link href="styles.css" rel="stylesheet" type="text/css" />
-
 </head>
 
 <body>
-
-
 
 <div class="container">
   <div class="header"><a href="index.html"><img src="images/home_logo.jpg" alt="Insert Logo Here" name="Insert_logo" width="180" height="180" id="Insert_logo" style="background: #333333; display:block;" /></a>
@@ -36,12 +27,43 @@
   
   
   <div class="content">
-  	<h1>WELCOME TO MY PORTFOLIO</h1>
-    <p>Before I knew what design was, I was always one to want to make something better than what it was. I was always to the one to push the limits of a project to be something different than what it could be, what anyone else would make it. I pride myself on my creativity and willing to think, live and learn outside the box. My skill set is varied and growing with the times, I learn and work well with others and I see myself as a great problem solver, both in the creative and professional world and a positive addition to your creative team.</p>
-    <p>shannon crabill</p>
-<!-- end .content --></div>
+    
+    <h1>NEED SOME DESIGN WORK DONE? CONTACT ME AND WE'LL TALK</h1>
+    
+    <form action="FormtoEmail.php" method="post" name="ContactForm">
+    
+      <p>
+        <label>Name<br />
+          <input name="Name" type="text" value="" />
+        </label>
+        
+        <label><br />
+          <br />
+          Email Address<br />
+          <input name="Email" type="text" />
+        </label>
+        
+        <label><br />
+          <br />
+          Subject<br />
+          <input name="Subject" type="text" />
+        </label>
+        
+        <label><br />
+          <br />
+          Comments<br />
+          <textarea name="Comments" cols="80" rows="20" class="content"></textarea>
+        </label>
+      </p>
+      <p>
+        <input name="Submit" type="Submit" value="Submit"/>
+      </p>
+    </form>
+    
+  
+  <!-- end .content --></div>
   <div class="footer">
-    <p>shannon crabill | 2011</p>
+    <p>copyright shannon crabill | 2011</p>
     <!-- end .footer --></div>
   <!-- end .container --></div>
 </body>
